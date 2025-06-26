@@ -17,6 +17,11 @@ public class Pessoa {
 		}
 		
 		public void exibir() {
-			System.out.printf("%s tem %s anos, %s de altura e é do gênero %s", nome, idade, altura, genero);
+			System.out.printf("%s tem %s anos, %s de altura e é do gênero %s\n", nome, idade, altura, genero);
+			
+			System.out.printf("Nome: %s\n"
+					+ "Idade: %d \n"
+					+ "Altura: %.2f \n"
+					+ "Gênero: %s\n", nome, idade, altura, genero);
 		}
 }
