@@ -2,7 +2,7 @@ package MetodosPOO;
 
 public class Elefante {
 	String cor;
-	String nome;
+	String nome; //Static String nome -> ultimo valor atribuido subescreve tudo (Floresta Amazonica) -> result: "zinho"
 	public Elefante() {
 		
 	}
